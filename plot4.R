@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Language" content="en">
     
     
-    <title>ExData_Plotting1/README.md at master · sanket-patil/ExData_Plotting1</title>
+    <title>ExData_Plotting1/plot4.R at master · sanket-patil/ExData_Plotting1</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -23,7 +23,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTU0MzUwMTpjZGIyMmRhY2FlZjc5ODQxNjM1NmNjMzFkYzkwYmIwNTpkMDE4YzA2MGI0MmNlNjc4NjY0MTUwZjA4MGFmYzVjM2VlZTlhZjAwMDlkODM2MjFmNGI1ZWY2Nzk4OTc0MWI1--e51f2f8a669c3699e4b990787319f93e6a452808">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTU0MzUwMTpjZGIyMmRhY2FlZjc5ODQxNjM1NmNjMzFkYzkwYmIwNTplNmJhMGVjMDFjYmJlNTJkOGM0NDVmNjUzMjU2MjJjODU5ZTM5MjFkNjM4ODY0NTI2ZGRiM2UyOTJjZjM1MTQ1--dd342af09f59c9db17adedfb4bc22cdf9ce96b7f">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -32,7 +32,7 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient>
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="1B39215B:741D:1C8386A7:554EB82C" name="octolytics-dimension-request_id" /><meta content="1543501" name="octolytics-actor-id" /><meta content="sanket-patil" name="octolytics-actor-login" /><meta content="5a8123cbcd32e986e6cc3883a52f60c1b5e19eaf520afc8e0333d6cf05533a9f" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="1B39215B:741E:1DFDD2C7:554EB88E" name="octolytics-dimension-request_id" /><meta content="1543501" name="octolytics-actor-id" /><meta content="sanket-patil" name="octolytics-actor-login" /><meta content="5a8123cbcd32e986e6cc3883a52f60c1b5e19eaf520afc8e0333d6cf05533a9f" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -46,7 +46,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="goMEntmN4Fi9SfNWXJyIDgSmw3/Vw3fK7mmfH7RvOOCnBox4jXyZKVJtyzGrqaHg2VTlDDpuO+XT7dzv1wCKdA==" name="csrf-token" />
+<meta content="SV1WJ2AM3UWkLcZj0bXRUi19boY7wZvR2GV62sEZddjB1Ue+371dWB2V4jyvuSi3ksVgsQxnvlPQNm/zQL0Wfw==" name="csrf-token" />
 
     <link href="https://assets-cdn.github.com/assets/github-c486157afcc5f58155a921bc675afb08733fbaa8dcf39ac2104d381dd9c82ac2.css" media="all" rel="stylesheet" />
     <link href="https://assets-cdn.github.com/assets/github2-da2e842cc3f0aaf33b727d0ef034243c12ab008fd09b24868b97719683b40ee7.css" media="all" rel="stylesheet" />
@@ -170,7 +170,7 @@
   </li>
 
   <li class="header-nav-item">
-    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="T97LAEin19KswMRMtGoFa9kqDbPXusOwF220YErtX8YsV+cijv0NunzeuWIni+BLzJPDJT7wkMFfUZGu8Qqi1Q==" /></div>
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Xw8mJlrPgmjnzG800TXyeC/Y1uqs/vaArcEdmrYGzTLvDVfZoCZqJWGfgcJWDydmR1dsrYbHDNpCDFZ9+/SZUA==" /></div>
       <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
         <span class="octicon octicon-sign-out"></span>
       </button>
@@ -200,7 +200,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2Lz/Sz3aOQX7tg9iLIfscH1Yc40rV4MRLEorcsLfGFdk7FueT+GJHk9V+xi31CfbMOPNGNOjLlvF0QU1b++Ecg==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="29096824" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="W7OG6jjhOuzpT6x9Kwln8Y0ojOEKcWt2Rgt8Wc4CZHCKoFJmVltYjqxid2/13liqMkXPeARj4WwIZMFqUnc2vA==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="29096824" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/sanket-patil/ExData_Plotting1/subscription"
@@ -275,7 +275,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BZT2HMCW7EtwQhwkPzYv0EL94NugcToSjFpC+YhwRu1AYRXoc3UbRbVOehYenF9nSvx9RAbgKo83LPeS0SbxPg==" /></div>
+    <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6Af7WA2BdmjN/Ltb0+buGto0IjBTLCGjENU91X37ncHfWgG5CEB4agATIl0dilKTvzF+8GJXSzyYZXn+ONuGmA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar sanket-patil/ExData_Plotting1"
@@ -287,7 +287,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="F6Xh5Ie8mZMV8Bfh5+TIUWQCCCGs8Fqs/PVut7CVnYhDoo4lY8VdEmp/GJ9mIBzfcpdwOrcDvkktRB8C3xau0Q==" /></div>
+    <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="KTEhPyFjNwKZCGAIwyEoweS/2cl/wH70D0DkAgKOpulJ6PBqAxAI6TZOjTOiDx7wQxA1l8glLQyDy9dfuSm1GA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star sanket-patil/ExData_Plotting1"
@@ -468,9 +468,9 @@
 
           
 
-<a href="/sanket-patil/ExData_Plotting1/blob/705598bdc313ca8e409fccd3d1db1d1d64c3939d/README.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/sanket-patil/ExData_Plotting1/blob/705598bdc313ca8e409fccd3d1db1d1d64c3939d/plot4.R" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:52a4189371e1655f5352d495d526abdd -->
+<!-- blob contrib key: blob_contributors:v21:5f140c2c0a8757634d1b95e9168d61bd -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -515,7 +515,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/sanket-patil/ExData_Plotting1/blob/master/README.md"
+               href="/sanket-patil/ExData_Plotting1/blob/master/plot4.R"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -526,7 +526,7 @@
             </a>
         </div>
 
-          <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eJ8kspuqMhX7BOzD3g6SaHSFAxmozXatoXz3oOPJhhBoVCD/Cd6ewSsE0gZ2U0NscXhxq8dQqL58BXlp4iWLOg==" /></div>
+          <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fatwOC7Wr4Dn9E3ev4C1rJqo4IPRA9OvNbgKqYf6C6fYvWkr3FYj3WkY9OIVUVfyDrHxtxtL46WQYTL1iLttTA==" /></div>
             <span class="octicon octicon-git-branch select-menu-item-icon"></span>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -534,7 +534,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="README.md">
+            <input type="hidden" name="path" id="path" value="plot4.R">
 </form>
       </div>
 
@@ -563,11 +563,11 @@
   </div>
 
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/sanket-patil/ExData_Plotting1" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ExData_Plotting1</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/sanket-patil/ExData_Plotting1" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ExData_Plotting1</span></a></span></span><span class="separator">/</span><strong class="final-path">plot4.R</strong>
   </div>
 </div>
 
-<include-fragment class="commit commit-loader file-history-tease" src="/sanket-patil/ExData_Plotting1/contributors/master/README.md">
+<include-fragment class="commit commit-loader file-history-tease" src="/sanket-patil/ExData_Plotting1/contributors/master/plot4.R">
   <div class="file-history-tease-header">
     Fetching contributors&hellip;
   </div>
@@ -582,145 +582,197 @@
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/sanket-patil/ExData_Plotting1/raw/master/README.md" class="btn btn-sm " id="raw-url">Raw</a>
-          <a href="/sanket-patil/ExData_Plotting1/blame/master/README.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
-        <a href="/sanket-patil/ExData_Plotting1/commits/master/README.md" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/sanket-patil/ExData_Plotting1/raw/master/plot4.R" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/sanket-patil/ExData_Plotting1/blame/master/plot4.R" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/sanket-patil/ExData_Plotting1/commits/master/plot4.R" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
 
-            <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/edit/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gq3BnXd03fDTLkfhR7UD4pv5hdLkoqnf/7B0NRwVHKrQsW4LIbR/RC9agik2Ck274WwTdyjDBtiQjseWzk1O6w==" /></div>
+            <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/edit/master/plot4.R" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="syO/bb9neK2Z2AjpPDpQt72gVSrdBQHf9BOu6gUecEVoNzaQGrRvYZD2bGYLqksd1W7guH86lchle2aDC9GUiA==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Edit this file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/delete/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="LCSWKEPgEfWaxGqKxUp3Ff0rgyknZrScvh+RwQhS743XBlbcG8xq5S098SkK/hwAF/FA9mJuqslAhCJaVb9hJw==" /></div>
+          <form accept-charset="UTF-8" action="/sanket-patil/ExData_Plotting1/delete/master/plot4.R" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qiHIy7I7Eb1qc3Cd20iDDtFNsXuNqu0m2EuIvJT4OhLGBWmtfRvR5lIT/CAZr2r+67S4fZvJlkWINt1sDAP70w==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-        115 lines (70 sloc)
+        39 lines (32 sloc)
         <span class="file-info-divider"></span>
-      4.254 kb
+      1.471 kb
     </div>
   </div>
-    <div id="readme" class="blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h2>
-<a id="user-content-introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+  
+  <div class="blob-wrapper data type-r">
+      <table class="highlight tab-size-8 js-file-line-container">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">library(<span class="pl-smi">data.table</span>)</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">dtime</span> <span class="pl-k">&lt;-</span> difftime(as.POSIXct(<span class="pl-s"><span class="pl-pds">&quot;</span>2007-02-03<span class="pl-pds">&quot;</span></span>), </td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">                  as.POSIXct(<span class="pl-s"><span class="pl-pds">&quot;</span>2007-02-01<span class="pl-pds">&quot;</span></span>), <span class="pl-v">units</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>mins<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">rowsToRead</span> <span class="pl-k">&lt;-</span> as.numeric(<span class="pl-smi">dtime</span>)</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">DT</span> <span class="pl-k">&lt;-</span> fread(<span class="pl-s"><span class="pl-pds">&quot;</span>household_power_consumption.txt<span class="pl-pds">&quot;</span></span>, </td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">            <span class="pl-v">skip</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>1/2/2007<span class="pl-pds">&quot;</span></span>, <span class="pl-v">nrows</span> <span class="pl-k">=</span> <span class="pl-smi">rowsToRead</span>, </td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">            <span class="pl-v">na.strings</span> <span class="pl-k">=</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>?<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">setnames(<span class="pl-smi">DT</span>, colnames(<span class="pl-smi">DT</span>), </td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">         c(<span class="pl-s"><span class="pl-pds">&quot;</span>Date<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Time<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Global_active_power<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Global_reactive_power<span class="pl-pds">&quot;</span></span>, </td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">           <span class="pl-s"><span class="pl-pds">&quot;</span>Voltage<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Global_intensity<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Sub_metering_1<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Sub_metering_2<span class="pl-pds">&quot;</span></span>, </td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">           <span class="pl-s"><span class="pl-pds">&quot;</span>Sub_metering_3<span class="pl-pds">&quot;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span> <span class="pl-k">&lt;-</span> as.POSIXct(paste(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Date</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Time</span>), <span class="pl-v">format</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>%d/%m/%Y %H:%M:%S<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">png(<span class="pl-s"><span class="pl-pds">&quot;</span>plot4.png<span class="pl-pds">&quot;</span></span>, <span class="pl-v">width</span> <span class="pl-k">=</span> <span class="pl-c1">480</span>, <span class="pl-v">height</span> <span class="pl-k">=</span> <span class="pl-c1">480</span>)</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">par(<span class="pl-v">mfcol</span> <span class="pl-k">=</span> c(<span class="pl-c1">2</span>, <span class="pl-c1">2</span>))</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">plot(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Global_active_power</span>, <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>, </td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">     <span class="pl-v">ylab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Global Active Power<span class="pl-pds">&quot;</span></span>, <span class="pl-v">type</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>n<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">lines(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Global_active_power</span>)</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">plot(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Sub_metering_1</span>, <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>, </td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">     <span class="pl-v">ylab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Energy sub metering<span class="pl-pds">&quot;</span></span>, <span class="pl-v">type</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>n<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">lines(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Sub_metering_1</span>)</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">lines(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Sub_metering_2</span>, <span class="pl-v">col</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>red<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">lines(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Sub_metering_3</span>, <span class="pl-v">col</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>blue<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">legend(<span class="pl-s"><span class="pl-pds">&quot;</span>topright<span class="pl-pds">&quot;</span></span>, <span class="pl-v">lwd</span> <span class="pl-k">=</span> <span class="pl-c1">1</span>, <span class="pl-v">col</span> <span class="pl-k">=</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>black<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>red<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>blue<span class="pl-pds">&quot;</span></span>), </td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">       <span class="pl-v">legend</span> <span class="pl-k">=</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>Sub_metering_1<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Sub_metering_2<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>Sub_metering_3<span class="pl-pds">&quot;</span></span>),</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">       <span class="pl-v">bty</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>n<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">plot(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Voltage</span>, <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>datetime<span class="pl-pds">&quot;</span></span>, </td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">     <span class="pl-v">ylab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Voltage<span class="pl-pds">&quot;</span></span>, <span class="pl-v">type</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>n<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">lines(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Voltage</span>)</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">plot(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Global_reactive_power</span>, </td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">     <span class="pl-v">xlab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>datetime<span class="pl-pds">&quot;</span></span>, <span class="pl-v">ylab</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Global_reactive_power<span class="pl-pds">&quot;</span></span>, <span class="pl-v">type</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>n<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">lines(<span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">DateTime</span>, <span class="pl-smi">DT</span><span class="pl-k">$</span><span class="pl-smi">Global_reactive_power</span>)</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">dev.off()</td>
+      </tr>
+</table>
 
-<p>This assignment uses data from
-the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
-Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
-electric power consumption Data Set" which I have made available on
-the course web site:</p>
-
-<ul>
-<li><p><b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]</p></li>
-<li><p><b>Description</b>: Measurements of electric power consumption in
-one household with a one-minute sampling rate over a period of almost
-4 years. Different electrical quantities and some sub-metering values
-are available.</p></li>
-</ul>
-
-<p>The following descriptions of the 9 variables in the dataset are taken
-from
-the <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">UCI
-web site</a>:</p>
-
-<ol>
-<li>
-<b>Date</b>: Date in format dd/mm/yyyy </li>
-<li>
-<b>Time</b>: time in format hh:mm:ss </li>
-<li>
-<b>Global_active_power</b>: household global minute-averaged active power (in kilowatt) </li>
-<li>
-<b>Global_reactive_power</b>: household global minute-averaged reactive power (in kilowatt) </li>
-<li>
-<b>Voltage</b>: minute-averaged voltage (in volt) </li>
-<li>
-<b>Global_intensity</b>: household global minute-averaged current intensity (in ampere) </li>
-<li>
-<b>Sub_metering_1</b>: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered). </li>
-<li>
-<b>Sub_metering_2</b>: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light. </li>
-<li>
-<b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
-</ol>
-
-<h2>
-<a id="user-content-loading-the-data" class="anchor" href="#loading-the-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loading the data</h2>
-
-<p>When loading the dataset into R, please consider the following:</p>
-
-<ul>
-<li><p>The dataset has 2,075,259 rows and 9 columns. First
-calculate a rough estimate of how much memory the dataset will require
-in memory before reading into R. Make sure your computer has enough
-memory (most modern computers should be fine).</p></li>
-<li><p>We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.</p></li>
-<li><p>You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the <code>strptime()</code> and <code>as.Date()</code>
-functions.</p></li>
-<li><p>Note that in this dataset missing values are coded as <code>?</code>.</p></li>
-</ul>
-
-<h2>
-<a id="user-content-making-plots" class="anchor" href="#making-plots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Making Plots</h2>
-
-<p>Our overall goal here is simply to examine how household energy usage
-varies over a 2-day period in February, 2007. Your task is to
-reconstruct the following plots below, all of which were constructed
-using the base plotting system.</p>
-
-<p>First you will need to fork and clone the following GitHub repository:
-<a href="https://github.com/rdpeng/ExData_Plotting1">https://github.com/rdpeng/ExData_Plotting1</a></p>
-
-<p>For each plot you should</p>
-
-<ul>
-<li><p>Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.</p></li>
-<li><p>Name each of the plot files as <code>plot1.png</code>, <code>plot2.png</code>, etc.</p></li>
-<li><p>Create a separate R code file (<code>plot1.R</code>, <code>plot2.R</code>, etc.) that
-constructs the corresponding plot, i.e. code in <code>plot1.R</code> constructs
-the <code>plot1.png</code> plot. Your code file <strong>should include code for reading
-the data</strong> so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.</p></li>
-<li><p>Add the PNG file and R code file to your git repository</p></li>
-</ul>
-
-<p>When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.</p>
-
-<p>The four plots that you will need to construct are shown below. </p>
-
-<h3>
-<a id="user-content-plot-1" class="anchor" href="#plot-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plot 1</h3>
-
-<p><a href="/sanket-patil/ExData_Plotting1/blob/master/figure/unnamed-chunk-2.png" target="_blank"><img src="/sanket-patil/ExData_Plotting1/raw/master/figure/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2" style="max-width:100%;"></a> </p>
-
-<h3>
-<a id="user-content-plot-2" class="anchor" href="#plot-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plot 2</h3>
-
-<p><a href="/sanket-patil/ExData_Plotting1/blob/master/figure/unnamed-chunk-3.png" target="_blank"><img src="/sanket-patil/ExData_Plotting1/raw/master/figure/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3" style="max-width:100%;"></a> </p>
-
-<h3>
-<a id="user-content-plot-3" class="anchor" href="#plot-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plot 3</h3>
-
-<p><a href="/sanket-patil/ExData_Plotting1/blob/master/figure/unnamed-chunk-4.png" target="_blank"><img src="/sanket-patil/ExData_Plotting1/raw/master/figure/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4" style="max-width:100%;"></a> </p>
-
-<h3>
-<a id="user-content-plot-4" class="anchor" href="#plot-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plot 4</h3>
-
-<p><a href="/sanket-patil/ExData_Plotting1/blob/master/figure/unnamed-chunk-5.png" target="_blank"><img src="/sanket-patil/ExData_Plotting1/raw/master/figure/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5" style="max-width:100%;"></a> </p>
-</article>
   </div>
 
 </div>
@@ -758,7 +810,7 @@ date. There should be four PNG files and four R code files.</p>
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.07148s from github-fe134-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.09074s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
